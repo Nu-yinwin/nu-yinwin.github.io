@@ -24,7 +24,9 @@ I specialize in enterprise software implementation, business analysis, stakehold
 
 🚀 Advanced Distribution Management System (ADMS)
 
-🏦 Oracle FLEXCUBE Core Banking
+🏦 Oracle FLEXCUBE Core Banking Software System
+
+🏦 ACE Core Banking Software System
 
 💳 Banking Digital Transformation
 
