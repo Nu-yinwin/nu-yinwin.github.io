@@ -143,4 +143,31 @@ nav ul li a:hover{
 
 }
 
+.stats{
+    padding:60px 0;
+}
+
+.stats .container{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.stat{
+    background:white;
+    padding:30px;
+    text-align:center;
+    flex:1;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.stat h2{
+    font-size:40px;
+    color:#4285F4;
+}
+
+.stat p{
+    color:#5f6368;
+}
 
