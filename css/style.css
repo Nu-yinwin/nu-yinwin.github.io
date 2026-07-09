@@ -81,3 +81,66 @@ nav ul li a{
     margin: 0 auto;
 }
 
+nav ul li a:hover{
+    color:#4285F4;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero h1 span{
+    color:#4285F4;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
+    color:#5f6368;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#4285F4;
+    color:white;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#3367D6;
+    transform:translateY(-3px);
+}
+
+@media(max-width:768px){
+
+    nav{
+        padding:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+
+}
+
+
