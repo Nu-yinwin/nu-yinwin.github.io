@@ -75,10 +75,10 @@ nav ul li a{
 
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
 }
 
 nav ul li a:hover{
