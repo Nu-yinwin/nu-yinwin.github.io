@@ -75,16 +75,6 @@ nav ul li a{
 
 }
 
-nav ul li a{
-
-    color:#202124;
-
-    font-weight:500;
-
-    transition:.3s;
-
-}
-
 .container {
     width: 90%;
     max-width: 1200px;
