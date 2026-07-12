@@ -476,3 +476,11 @@ grid-template-columns:repeat(2,1fr);
     transform:translateY(-2px);
 
 }
+
+.about p{
+
+    max-width:850px;
+
+    line-height:1.8;
+
+}
