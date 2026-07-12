@@ -308,3 +308,51 @@ nav ul li a:hover{
     margin-top:5px;
 
 }
+
+/* ===========================
+   SKILLS
+=========================== */
+
+.skills{
+    padding:100px 0;
+    background:white;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.skill-card{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.skill-card h3{
+    color:#3d7bf5;
+    margin-bottom:20px;
+}
+
+.skill-card ul{
+    list-style:none;
+    padding:0;
+}
+
+.skill-card li{
+    padding:8px 0;
+    border-bottom:1px solid #eee;
+}
+
+.skill-card li:last-child{
+    border-bottom:none;
+}
