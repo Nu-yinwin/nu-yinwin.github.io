@@ -691,3 +691,138 @@ grid-template-columns:repeat(2,1fr);
     font-style:italic;
 
 }
+
+/* =======================
+   Vertical Timeline For Experience.html
+======================= */
+
+.timeline{
+
+    padding:100px 20px;
+
+}
+
+.timeline h1{
+
+    text-align:center;
+    font-size:50px;
+    margin-bottom:15px;
+
+}
+
+.timeline-subtitle{
+
+    text-align:center;
+    color:#777;
+    margin-bottom:70px;
+
+}
+
+.timeline{
+
+    position:relative;
+    max-width:900px;
+    margin:auto;
+
+}
+
+.timeline::before{
+
+    content:"";
+    position:absolute;
+
+    left:22px;
+
+    width:4px;
+
+    height:100%;
+
+    background:#3d7bf5;
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    padding-left:80px;
+
+    margin-bottom:70px;
+
+}
+
+.timeline-dot{
+
+    position:absolute;
+
+    left:10px;
+
+    top:15px;
+
+    width:25px;
+
+    height:25px;
+
+    border-radius:50%;
+
+    background:#3d7bf5;
+
+    border:5px solid white;
+
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+
+}
+
+.timeline-content{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.timeline-content:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.timeline-date{
+
+    color:#3d7bf5;
+
+    font-weight:bold;
+
+}
+
+.timeline-content h2{
+
+    margin:10px 0;
+
+}
+
+.timeline-content h4{
+
+    color:#666;
+
+    margin-bottom:20px;
+
+}
+
+.timeline-content ul{
+
+    margin-top:15px;
+
+}
+
+.timeline-content li{
+
+    margin-bottom:8px;
+
+}
