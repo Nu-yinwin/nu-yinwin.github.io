@@ -487,3 +487,22 @@ grid-template-columns:repeat(2,1fr);
     line-height:1.8;
 
 }
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.social-links a{
+    font-size: 28px;
+    color: #3d7bf5;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    color: #1d4ed8;
+    transform: translateY(-3px);
+}
