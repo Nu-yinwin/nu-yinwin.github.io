@@ -412,3 +412,67 @@ grid-template-columns:repeat(2,1fr);
     padding:100px 0;
     background:#f8f9fc;
 }
+
+.project-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    color:#3d7bf5;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.project-btn:hover{
+
+    transform:translateX(6px);
+
+}
+
+.projects{
+
+    padding:100px 0;
+
+}
+
+.skills{
+
+    padding:100px 0;
+
+}
+
+.project-btn{
+
+    display:inline-block;
+
+    margin-top:25px;
+
+    padding:10px 22px;
+
+    background:#3d7bf5;
+
+    color:white;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.project-btn:hover{
+
+    background:#2f67d8;
+
+    transform:translateY(-2px);
+
+}
