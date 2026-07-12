@@ -512,36 +512,30 @@ grid-template-columns:repeat(2,1fr);
 
 /* ABOUT ME CSS FILE */
 
+/* ================= ABOUT PAGE ================= */
+
 .about-hero{
 
+    padding:130px 20px 90px;
     background:#f8f9fc;
-
     text-align:center;
-
-    padding:120px 20px 80px;
 
 }
 
 .profile-image{
 
     width:180px;
-
     height:180px;
-
-    object-fit:cover;
-
     border-radius:50%;
-
+    object-fit:cover;
     border:6px solid white;
-
-    box-shadow:0 15px 30px rgba(0,0,0,.15);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 
 }
 
 .about-hero h1{
 
     font-size:50px;
-
     margin-top:25px;
 
 }
@@ -549,12 +543,9 @@ grid-template-columns:repeat(2,1fr);
 .about-hero p{
 
     color:#666;
-
     font-size:20px;
 
 }
-
-/* STORY */
 
 .about-story{
 
@@ -562,75 +553,85 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
-.about-story p{
+.about-story h2{
 
-    max-width:900px;
-
-    margin:auto;
-
-    line-height:2;
-
-    font-size:18px;
+    text-align:center;
+    margin-bottom:40px;
+    font-size:42px;
 
 }
 
-/* GALLERY */
+.about-story p{
+
+    max-width:900px;
+    margin:auto;
+    line-height:2;
+    text-align:justify;
+
+}
+
+/* Gallery */
 
 .gallery{
 
     background:#f8f9fc;
-
     padding:100px 20px;
+
+}
+
+.gallery h2{
+
+    text-align:center;
+    margin-bottom:60px;
+    font-size:42px;
 
 }
 
 .gallery-grid{
 
     display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:30px;
 
-    margin-top:50px;
-
 }
 
-.gallery-item{
+.gallery-card{
 
     background:white;
-
     border-radius:20px;
-
     overflow:hidden;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.3s;
 
 }
 
-.gallery-item img{
+.gallery-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.gallery-card img{
 
     width:100%;
-
-    height:250px;
-
+    height:260px;
     object-fit:cover;
 
 }
 
-.gallery-item h3{
+.gallery-card h3{
 
     padding:20px 20px 10px;
 
 }
 
-.gallery-item p{
+.gallery-card p{
 
     padding:0 20px 20px;
 
 }
 
-/* BELIEFS */
+/* Belief */
 
 .belief{
 
@@ -638,12 +639,18 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
+.belief h2{
+
+    text-align:center;
+    margin-bottom:60px;
+    font-size:42px;
+
+}
+
 .belief-grid{
 
     display:grid;
-
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
     gap:30px;
 
 }
@@ -651,39 +658,36 @@ grid-template-columns:repeat(2,1fr);
 .belief-card{
 
     background:white;
-
-    padding:35px;
-
     border-radius:20px;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    padding:35px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.3s;
 
 }
 
-/* QUOTE */
+.belief-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+/* Quote */
 
 .quote-section{
 
     background:#3d7bf5;
-
     color:white;
-
+    padding:100px 20px;
     text-align:center;
-
-    padding:80px 20px;
 
 }
 
 .quote-section blockquote{
 
     max-width:900px;
-
     margin:auto;
-
     font-size:28px;
-
     line-height:1.8;
-
     font-style:italic;
 
 }
