@@ -696,32 +696,38 @@ grid-template-columns:repeat(2,1fr);
    Vertical Timeline For Experience.html
 ======================= */
 
-.timeline{
+.career{
 
     padding:100px 20px;
 
 }
 
-.timeline h1{
+.section-header{
 
     text-align:center;
-    font-size:50px;
-    margin-bottom:15px;
+    margin-bottom:80px;
 
 }
 
-.timeline-subtitle{
+.section-header h1{
 
-    text-align:center;
-    color:#777;
-    margin-bottom:70px;
+    font-size:48px;
+    margin-bottom:20px;
+
+}
+
+.section-header p{
+
+    color:#666;
+    max-width:700px;
+    margin:auto;
 
 }
 
 .timeline{
 
     position:relative;
-    max-width:900px;
+    max-width:1100px;
     margin:auto;
 
 }
@@ -731,37 +737,45 @@ grid-template-columns:repeat(2,1fr);
     content:"";
     position:absolute;
 
-    left:22px;
-
+    left:50%;
+    top:0;
     width:4px;
-
     height:100%;
 
     background:#3d7bf5;
+
+    transform:translateX(-50%);
 
 }
 
 .timeline-item{
 
+    width:50%;
+    padding:20px 40px;
     position:relative;
-
-    padding-left:80px;
-
-    margin-bottom:70px;
 
 }
 
-.timeline-dot{
+.timeline-item.left{
 
+    left:0;
+
+}
+
+.timeline-item.right{
+
+    left:50%;
+
+}
+
+.timeline-item::before{
+
+    content:"";
     position:absolute;
 
-    left:10px;
-
-    top:15px;
-
-    width:25px;
-
-    height:25px;
+    top:45px;
+    width:22px;
+    height:22px;
 
     border-radius:50%;
 
@@ -769,7 +783,19 @@ grid-template-columns:repeat(2,1fr);
 
     border:5px solid white;
 
-    box-shadow:0 0 15px rgba(0,0,0,.15);
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+
+}
+
+.timeline-item.left::before{
+
+    right:-13px;
+
+}
+
+.timeline-item.right::before{
+
+    left:-13px;
 
 }
 
@@ -777,13 +803,13 @@ grid-template-columns:repeat(2,1fr);
 
     background:white;
 
-    padding:30px;
-
     border-radius:18px;
+
+    overflow:hidden;
 
     box-shadow:0 15px 35px rgba(0,0,0,.08);
 
-    transition:.3s;
+    transition:.35s;
 
 }
 
@@ -793,11 +819,26 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
-.timeline-date{
+.timeline-content img{
+
+    width:100%;
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+.timeline-content .text{
+
+    padding:25px;
+
+}
+
+.date{
 
     color:#3d7bf5;
 
-    font-weight:bold;
+    font-weight:600;
 
 }
 
@@ -815,14 +856,8 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
-.timeline-content ul{
+.timeline-content p{
 
-    margin-top:15px;
-
-}
-
-.timeline-content li{
-
-    margin-bottom:8px;
+    line-height:1.8;
 
 }
