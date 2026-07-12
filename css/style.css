@@ -356,3 +356,17 @@ nav ul li a:hover{
 .skill-card li:last-child{
     border-bottom:none;
 }
+
+footer{
+
+background:#111;
+
+color:white;
+
+text-align:center;
+
+padding:30px;
+
+margin-top:80px;
+
+}
