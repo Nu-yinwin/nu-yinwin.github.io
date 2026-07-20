@@ -1168,3 +1168,21 @@ grid-template-columns:repeat(2,1fr);
     width: 115px;
     margin: 12px auto;
 }
+
+.credential-link{
+    display:inline-block;
+    margin-top:15px;
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.credential-link:hover{
+    color:#1d4ed8;
+    text-decoration:underline;
+}
+
+.credential-link i{
+    margin-right:6px;
+}
