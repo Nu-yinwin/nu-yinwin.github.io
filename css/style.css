@@ -1165,5 +1165,6 @@ grid-template-columns:repeat(2,1fr);
     border-radius: 30px;
     font-size: 14px;
     font-weight: 600;
+    width: 115px;
     margin: 12px auto;
 }
