@@ -801,7 +801,7 @@ grid-template-columns:repeat(2,1fr);
 
 .timeline-content{
 
-    display:flex;
+    
     
     background:white;
 
@@ -837,10 +837,7 @@ grid-template-columns:repeat(2,1fr);
 
 .timeline-content img{
 
-    
     object-fit:cover;
-    border-radius:12px;
-    margin-bottom:20px;
     display:block;
 
 }
