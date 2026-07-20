@@ -1158,19 +1158,12 @@ grid-template-columns:repeat(2,1fr);
 
 .badge{
 
-display:inline-block;
-
-background:#dbeafe;
-
-color:#2563eb;
-
-padding:6px 15px;
-
-border-radius:30px;
-
-font-size:13px;
-
-font-weight:600;
-
-margin:12px 0;
+     display: inline-block;
+    background: #dbeafe;
+    color: #2563eb;
+    padding: 6px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px auto;
 }
