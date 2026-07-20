@@ -837,8 +837,7 @@ grid-template-columns:repeat(2,1fr);
 
 .timeline-content img{
 
-   width:220px;
-    height:220px;
+    
     object-fit:cover;
     border-radius:12px;
     margin-bottom:20px;
